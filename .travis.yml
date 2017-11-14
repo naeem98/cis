@@ -13,7 +13,7 @@ before_install:
   - bundle -v
 script:
   - 'bundle exec rake $CHECK'
-  - if  COMMITTER_EMAIL !~ /gmail.com/ ; then
+  - if  ${COMMITTER_EMAIL} !~ /gmail.com/ ; then
     puts "Invalid email. Update your commit email" && travis_terminate 1;
     fi
 bundler_args: --without system_tests
