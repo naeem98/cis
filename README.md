@@ -70,7 +70,7 @@ This is where you list OS compatibility, version compatibility, etc. If there ar
 
 ## Development
 
-Since your module is awesome, other users will want to play with it. Let them know what the ground rules for contributing are.
+We highly welcome contributions to this module, especially those that include documentation, and write tests ;) but will happily guide you through the process, so, yes, please submit that pull request!
 
 ## Release Notes/Contributors/Etc. **Optional**
 
